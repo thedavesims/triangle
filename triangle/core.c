@@ -259,7 +259,7 @@
 #endif
 #if CYTHON_USE_PYLONG_INTERNALS
   #if PY_MAJOR_VERSION < 3
-    #include "longintrepr.h"
+    #include "cpython/longintrepr.h"
   #endif
   #undef SHIFT
   #undef BASE
